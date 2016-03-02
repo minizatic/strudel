@@ -1,0 +1,14 @@
+<div class="row" id="header-container">
+    <div class="ten columns">
+        <h2>strudel</h2>
+    </div>
+    <div class="two columns">
+        <button class="button-primary header-btn" id="new-post-btn">New Post</button>
+    </div>
+</div>
+<div class="row">
+    {{#each model as |post|}}
+        <h6>{{post}}</h6>
+    {{/each}}
+</div>
+{{outlet}}

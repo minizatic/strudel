@@ -1,0 +1,31 @@
+@import 'normalize.css';
+@import 'skeleton.min.css';
+
+html, body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+}
+#form-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+#form-container form {
+    margin-bottom: 0px;
+}
+#form-container form input[type=button] {
+    margin-bottom: 0px;
+}
+.header-btn {
+    margin-top: 1.5rem;
+    float: right;
+}
+#header-container {
+    padding-top: 1rem;
+    border-bottom: 1px solid #ddd;
+}
