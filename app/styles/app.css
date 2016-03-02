@@ -29,3 +29,6 @@ html, body {
     padding-top: 1rem;
     border-bottom: 1px solid #ddd;
 }
+#new-post-container form{
+    margin-top: 2rem;
+}

@@ -1,1 +1,17 @@
+<div class="row" id="new-post-container">
+    <div class="eight columns offset-by-two">
+        <form>
+            <label for="post-title">Title</label>
+            <input class="u-full-width" type="text" id="post-title">
+            <label for="post-body">Body</label>
+            <textarea class="u-full-width" id="post-body" rows="12"></textarea>
+            <label id="tags-label" for="post-tag-1">Tags</label>
+            <div id="tags-container">
+            </div>
+            <input id="add-tag-btn" value="Add Tag" type="button">
+            <br />
+            <input class="button-primary" id="publish-btn" value="Publish" type="button">
+        </form>
+    </div>
+</div>
 {{outlet}}
